@@ -1,12 +1,12 @@
 public class User {
     private static int lastId = 1;
-    private int id;
+    private final int id;
     private String name;
 
 
     User(String name){
-        this.id = this.lastId;
-        this.lastId++;
+        this.id = lastId;
+        lastId++;
         this.name = name;
     }
 
