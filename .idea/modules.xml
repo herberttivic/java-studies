@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/_02-heranca/_02-heranca.iml" filepath="$PROJECT_DIR$/_02-heranca/_02-heranca.iml" />
       <module fileurl="file://$PROJECT_DIR$/_03-modificadores de acesso/_03-modificadores de acesso.iml" filepath="$PROJECT_DIR$/_03-modificadores de acesso/_03-modificadores de acesso.iml" />
       <module fileurl="file://$PROJECT_DIR$/_04-polimorfismo/_04-polimorfismo.iml" filepath="$PROJECT_DIR$/_04-polimorfismo/_04-polimorfismo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_05-abstracao/_05-abstracao.iml" filepath="$PROJECT_DIR$/_05-abstracao/_05-abstracao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_06-interfaces/_06-interfaces.iml" filepath="$PROJECT_DIR$/_06-interfaces/_06-interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-studies.iml" filepath="$PROJECT_DIR$/.idea/java-studies.iml" />
     </modules>
   </component>
