@@ -1,10 +1,12 @@
+package user.family;
+
 public class User {
     private static int lastId = 1;
     private final int id;
     private String name;
 
 
-    User(String name){
+    public User(String name){
         this.id = lastId;
         lastId++;
         this.name = name;
