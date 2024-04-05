@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/_07-Exceptions/_07-Exceptions.iml" filepath="$PROJECT_DIR$/_07-Exceptions/_07-Exceptions.iml" />
       <module fileurl="file://$PROJECT_DIR$/_08-iterations/_08-iterations.iml" filepath="$PROJECT_DIR$/_08-iterations/_08-iterations.iml" />
       <module fileurl="file://$PROJECT_DIR$/_09-serialization/_09-serialization.iml" filepath="$PROJECT_DIR$/_09-serialization/_09-serialization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_10-threads/_10-threads.iml" filepath="$PROJECT_DIR$/_10-threads/_10-threads.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-studies.iml" filepath="$PROJECT_DIR$/.idea/java-studies.iml" />
     </modules>
   </component>
