@@ -9,10 +9,7 @@ import java.util.TreeSet;
 public class Question {
 
     public static void main(String[] args) {
-//        User u1 = new User("Herbert");
-//        User u2 = new User("Maria");
-//        User u3 = new User("João");
-//        User u4 = new User("José");
+
         try{
             File file = new File("log.txt");
             var reader = new BufferedReader(new FileReader(file));
