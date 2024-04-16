@@ -14,6 +14,8 @@
       <module fileurl="file://$PROJECT_DIR$/_10-threads/_10-threads.iml" filepath="$PROJECT_DIR$/_10-threads/_10-threads.iml" />
       <module fileurl="file://$PROJECT_DIR$/_11-extras/_11-extras.iml" filepath="$PROJECT_DIR$/_11-extras/_11-extras.iml" />
       <module fileurl="file://$PROJECT_DIR$/_12-progr-functional-lambda/_12-progr-functional-lambda.iml" filepath="$PROJECT_DIR$/_12-progr-functional-lambda/_12-progr-functional-lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_13-SQL/_13-SQL.iml" filepath="$PROJECT_DIR$/_13-SQL/_13-SQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_14-JDBC/_14-JDBC.iml" filepath="$PROJECT_DIR$/_14-JDBC/_14-JDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-studies.iml" filepath="$PROJECT_DIR$/.idea/java-studies.iml" />
     </modules>
   </component>
