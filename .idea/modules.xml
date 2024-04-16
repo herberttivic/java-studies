@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/_01-static/_01-static.iml" filepath="$PROJECT_DIR$/_01-static/_01-static.iml" />
       <module fileurl="file://$PROJECT_DIR$/_02-heranca/_02-heranca.iml" filepath="$PROJECT_DIR$/_02-heranca/_02-heranca.iml" />
-      <module fileurl="file://$PROJECT_DIR$/_03-modificadores de acesso/_03-modificadores de acesso.iml" filepath="$PROJECT_DIR$/_03-modificadores de acesso/_03-modificadores de acesso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_03-modificadores-de-acesso/_03-modificadores-de-acesso.iml" filepath="$PROJECT_DIR$/_03-modificadores-de-acesso/_03-modificadores-de-acesso.iml" />
       <module fileurl="file://$PROJECT_DIR$/_04-polimorfismo/_04-polimorfismo.iml" filepath="$PROJECT_DIR$/_04-polimorfismo/_04-polimorfismo.iml" />
       <module fileurl="file://$PROJECT_DIR$/_05-abstracao/_05-abstracao.iml" filepath="$PROJECT_DIR$/_05-abstracao/_05-abstracao.iml" />
       <module fileurl="file://$PROJECT_DIR$/_06-interfaces/_06-interfaces.iml" filepath="$PROJECT_DIR$/_06-interfaces/_06-interfaces.iml" />
@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/_09-serialization/_09-serialization.iml" filepath="$PROJECT_DIR$/_09-serialization/_09-serialization.iml" />
       <module fileurl="file://$PROJECT_DIR$/_10-threads/_10-threads.iml" filepath="$PROJECT_DIR$/_10-threads/_10-threads.iml" />
       <module fileurl="file://$PROJECT_DIR$/_11-extras/_11-extras.iml" filepath="$PROJECT_DIR$/_11-extras/_11-extras.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_12-progr-functional-lambda/_12-progr-functional-lambda.iml" filepath="$PROJECT_DIR$/_12-progr-functional-lambda/_12-progr-functional-lambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-studies.iml" filepath="$PROJECT_DIR$/.idea/java-studies.iml" />
     </modules>
   </component>
