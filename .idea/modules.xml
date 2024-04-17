@@ -18,6 +18,10 @@
       <module fileurl="file://$PROJECT_DIR$/_14-JDBC-CONNECTION/_14-JDBC-CONNECTION.iml" filepath="$PROJECT_DIR$/_14-JDBC-CONNECTION/_14-JDBC-CONNECTION.iml" />
       <module fileurl="file://$PROJECT_DIR$/_15-JDBC-SELECT-FROM-TABLE/_15-JDBC-SELECT-FROM-TABLE.iml" filepath="$PROJECT_DIR$/_15-JDBC-SELECT-FROM-TABLE/_15-JDBC-SELECT-FROM-TABLE.iml" />
       <module fileurl="file://$PROJECT_DIR$/_16-JDBC-INSERT-ON-TABLE/_16-JDBC-INSERT-ON-TABLE.iml" filepath="$PROJECT_DIR$/_16-JDBC-INSERT-ON-TABLE/_16-JDBC-INSERT-ON-TABLE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_17-JDBC-UPDATE-ON-TABLE/_17-JDBC-UPDATE-ON-TABLE.iml" filepath="$PROJECT_DIR$/_17-JDBC-UPDATE-ON-TABLE/_17-JDBC-UPDATE-ON-TABLE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_18-JDBC-DELETE-ON-TABLE/_18-JDBC-DELETE-ON-TABLE.iml" filepath="$PROJECT_DIR$/_18-JDBC-DELETE-ON-TABLE/_18-JDBC-DELETE-ON-TABLE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_19-JDBC-TRANSACTION/_19-JDBC-TRANSACTION.iml" filepath="$PROJECT_DIR$/_19-JDBC-TRANSACTION/_19-JDBC-TRANSACTION.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_20-JDBC-DAO/_20-JDBC-DAO.iml" filepath="$PROJECT_DIR$/_20-JDBC-DAO/_20-JDBC-DAO.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-studies.iml" filepath="$PROJECT_DIR$/.idea/java-studies.iml" />
     </modules>
   </component>

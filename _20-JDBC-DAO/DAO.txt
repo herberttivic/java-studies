@@ -1,0 +1,3 @@
+1. DATA ACCESS OBJECT - DAO é o objeto responsável por acessar os dados de uma entidade.
+2. Cada DAO é uma interface, pois podem ser mudadas as formas de acessar os dados.
+3. A injeção de dependências pode ser feita por meio do padrão de projeto Factory.
