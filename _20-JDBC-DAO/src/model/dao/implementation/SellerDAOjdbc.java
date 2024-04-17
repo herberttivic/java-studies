@@ -26,10 +26,10 @@ public class SellerDAOjdbc implements SellerDAO {
         PreparedStatement ps = null;
         try {
             ps = this.conn.prepareStatement(
-                    "SELECT tb_seller.*, tb_department.name as \"departmentName\" " +
-                        "FROM tb_seller INNER JOIN tb_department " +
-                        "ON tb_seller.\"departmentId\" = tb_department.id " +
-                        "WHERE tb_seller.id = ?;"
+            "SELECT tb_seller.*, tb_department.name as \"departmentName\" " +
+                "FROM tb_seller INNER JOIN tb_department " +
+                "ON tb_seller.\"departmentId\" = tb_department.id " +
+                "WHERE tb_seller.id = ?;"
             );
             ps.setInt(1, id);
             rs = ps.executeQuery();
@@ -87,7 +87,7 @@ public class SellerDAOjdbc implements SellerDAO {
 
     @Override
     public void insert(Seller seller) {
-            PreparedStatement ps = null;
+        PreparedStatement ps = null;
         try {
             ps = conn.prepareStatement(
             "INSERT INTO tb_seller "
@@ -144,11 +144,14 @@ public class SellerDAOjdbc implements SellerDAO {
     public void deleteById(Integer id) {
         String sql =
         "DELETE FROM public.tb_seller " +
-        "\tWHERE tb_seller.id = ?;";
+        "WHERE tb_seller.id = ?;";
         PreparedStatement ps = null;
         try{
             ps = conn.prepareStatement(sql);
             ps.setInt(1, id);
+
+            int rowsAffected = ps.executeUpdate();
+            System.out.println("Done! Row affected: "+ rowsAffected);
         }catch (SQLException e){
             throw new DbException(e.getMessage());
         }finally {
