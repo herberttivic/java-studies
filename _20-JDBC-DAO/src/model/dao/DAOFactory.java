@@ -17,4 +17,7 @@ public class DAOFactory {
         Connection conn = DB.getConnection();
         return new DepartmentDAOjdbc(conn);
     }
+    public static void closeConnection(){
+        DB.closeConnection();
+    }
 }
