@@ -26,13 +26,26 @@ public class TokenService {
                     .withSubject(user.toString())
                     .withExpiresAt(generateExpirationTime())
                     .sign(algorithm);
+            return token;
         }catch (JWTCreationException ex){
-            throw new RuntimeException(ex.getMessage());
+            return null;
         }
-        return "";
+    }
+
+    public String validateToken(String token) {
+        try {
+            Algorithm algorithm = Algorithm.HMAC256(this.secretKey);
+            return JWT.require(algorithm)
+                    .withIssuer("SPRING-TOKEN-SERVICE")
+                    .build()
+                    .verify(token)
+                    .getSubject();
+        }catch (JWTCreationException ex){
+            return null;
+        }
     }
 
     private Instant generateExpirationTime (){
-        return LocalDateTime.now().plusDays(30).toInstant(ZoneOffset.of("-3h"));
+        return LocalDateTime.now().plusDays(30).toInstant(ZoneOffset.of("-03:00"));
     }
 }

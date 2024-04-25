@@ -6,6 +6,9 @@ import com.learning._22springauth.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+import java.util.Optional;
+
 @Service
 public class UserService {
     @Autowired
@@ -20,5 +23,23 @@ public class UserService {
         user.setPassword(data.password);
 
         return this.userRepository.save(user);
+    }
+
+    public List<UserEntity> findAll() {
+        try {
+            return this.userRepository.findAll();
+        }catch (Exception e){
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    public UserEntity findByEmail(String email) {
+        try {
+            return this.userRepository.findByEmail(email).orElseThrow();
+        }catch (Exception e){
+            e.printStackTrace();
+            return null;
+        }
     }
 }
