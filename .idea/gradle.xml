@@ -3,14 +3,7 @@
   <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/_22-SPRING-AUTHENTICATION" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/_22-SPRING-AUTHENTICATION" />
-          </set>
-        </option>
-      </GradleProjectSettings>
+
     </option>
   </component>
 </project>
